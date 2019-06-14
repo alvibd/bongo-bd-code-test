@@ -29,7 +29,9 @@ class Task2Test extends TestCase
         
         $test = new LeastCommonAncestor();
 
-        $this->assertSame($test->lca($node1, $node9), 1);
+        $this->assertSame($test->lca($node6, $node7), 3);
+
+        $this->assertSame($test->lca($node3, $node7), 3);
     }
         
         

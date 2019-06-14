@@ -59,5 +59,3 @@ class Task2
 *
 * return $count
 */
-    
-?>

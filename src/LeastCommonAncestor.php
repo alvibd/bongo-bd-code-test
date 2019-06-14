@@ -18,10 +18,10 @@ class LeastCommonAncestor
          * breaking down the work in separete
          * functions to reduce memory allocation
          */
-        $temp1 = findParents($node1);
-        $temp2 = findParents($node2);
+        $temp1 = $this->findParents($node1);
+        $temp2 = $this->findParents($node2);
 
-        return cca($temp1, $temp2);
+        return $this->cca($temp1, $temp2);
 
     }
 
