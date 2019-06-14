@@ -1,0 +1,13 @@
+{
+    "name": "alvi/bongo-code-test",
+    "description": "Bongo Code test",
+    "type": "project",
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "require": {
+        "phpunit/phpunit": "^8"
+    }
+}
