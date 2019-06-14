@@ -1,13 +1,14 @@
 {
     "name": "alvi/bongo-code-test",
-    "description": "Bongo Code test",
-    "type": "project",
+    "description": "Bongo Bd Code Test with Unit Testing",
+    "type": "library",
+
     "autoload": {
-        "classmap": [
-            "src/"
-        ]
+        "psr-4": {
+            "Src\\": "src/"
+        }
     },
     "require": {
-        "phpunit/phpunit": "^8"
+        "phpunit/phpunit": "^8.2"
     }
 }
