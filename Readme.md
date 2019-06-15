@@ -1,7 +1,7 @@
 Bongo Code Test
 -----------------
 
-Easy Installation
+Happy Reviewing!
 -----------------
 **Requirements**
 - php7
