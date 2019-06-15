@@ -18,7 +18,7 @@ class LeastCommonAncestor
          * breaking down the work in separete
          * functions to reduce memory allocation
          */
-        $temp1 = $this->findParents($node1);
+        $temp1 = $this->findParents($node1); 
         $temp2 = $this->findParents($node2);
 
         return $this->cca($temp1, $temp2);
@@ -27,6 +27,8 @@ class LeastCommonAncestor
 
     /**
      * find the closest common ancestor
+     * time complexitiy of this will be the lenght of the smallest ancestry string
+     * at worst case they it might be the entire depth of both ancestry sting
      */
     private function cca($parents1, $parents2)
     {
@@ -66,6 +68,7 @@ class LeastCommonAncestor
 
     /**
      * Find the string of heritage
+     * runtime will be only as much as the depth of the node
      */
     private function findParents(Node $node)
     {
